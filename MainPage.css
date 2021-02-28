@@ -203,7 +203,6 @@ input, select, textarea {
 		width: 100%;
 	}
 
-/* BG */
 
 	#bg {
 		-moz-animation: bg 60s linear infinite;
@@ -218,9 +217,8 @@ input, select, textarea {
 		-webkit-transform: translate3d(0,0,0);
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
-	/* Set your background with this */
 
-		background: #348cb2 url("/Bg/bg.png") bottom left;
+		background: #348cb2 url("https://iamligolas.github.io/Bg/bg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -298,7 +296,6 @@ input, select, textarea {
 		width: 6750px;
 	}
 
-/* Overlay */
 
 	@-moz-keyframes overlay {
 		0% {
@@ -346,7 +343,7 @@ input, select, textarea {
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
+		background-image: url("Bg/overlay-pattern.png"), url("Bg/overlay.svg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -358,7 +355,6 @@ input, select, textarea {
 		width: 100%;
 	}
 
-/* Main */
 
 	#main {
 		height: 100%;
@@ -378,7 +374,6 @@ input, select, textarea {
 			width: 1px;
 		}
 
-/* Header */
 
 	@-moz-keyframes header {
 		0% {
@@ -703,7 +698,6 @@ input, select, textarea {
 					display: none;
 				}
 
-/* Footer */
 
 	#footer {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
@@ -718,19 +712,15 @@ input, select, textarea {
 		position: absolute;
 		text-align: center;
 		width: 100%;
-	}
-
-/* Wide */
+}
 
 	@media screen and (max-width: 1680px) {
 
-		/* Basic */
 
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
 
-		/* BG */
 
 			@-moz-keyframes bg {
 				0% {
@@ -802,17 +792,14 @@ input, select, textarea {
 			width: 4500px;
 		} }
 
-/* Normal */
 
 	@media screen and (max-width: 1280px) {
 
-		/* Basic */
-
+	
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
 
-		/* BG */
 
 			@-moz-keyframes bg {
 				0% {
@@ -884,11 +871,9 @@ input, select, textarea {
 			width: 2250px;
 		} }
 
-/* Mobile */
 
 	@media screen and (max-width: 736px) {
 
-		/* Basic */
 
 			body {
 				min-width: 320px;
@@ -898,7 +883,7 @@ input, select, textarea {
 				font-size: 11pt;
 			}
 
-		/* BG */
+
 
 			@-moz-keyframes bg {
 				0% {
